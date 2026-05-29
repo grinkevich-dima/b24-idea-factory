@@ -1,0 +1,99 @@
+site_name: "Bitrix24 Idea Factory"
+site_description: "Пакеты идей для Bitrix24 Marketplace"
+site_url: "https://grinkevich-dima.github.io/b24-idea-factory/"
+docs_dir: docs/idea-briefs
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Главная: index.md
+  - Пул идей: idea_pool_2026-05.md
+  - Execution Kit: execution_kit_1-2_weeks.md
+  - "Пакеты идей":
+    - "01 — SLA реакции на лид":
+      - Бриф: 01_crm_lead_response_sla.md
+      - Конкуренты: 01_crm_lead_response_sla__competitors.md
+      - MVP/релиз/Маркет: 01_crm_lead_response_sla__mvp_release_market.md
+      - Скрины/безопасность: 01_crm_lead_response_sla__screens_security_faq.md
+    - "02 — SLA по стадиям сделки":
+      - Бриф: 02_crm_stage_sla_overdue.md
+      - Конкуренты: 02_crm_stage_sla_overdue__competitors.md
+      - MVP/релиз/Маркет: 02_crm_stage_sla_overdue__mvp_release_market.md
+      - Скрины/безопасность: 02_crm_stage_sla_overdue__screens_security_faq.md
+    - "03 — Сделки без касаний":
+      - Бриф: 03_crm_no_touch_deals.md
+      - Конкуренты: 03_crm_no_touch_deals__competitors.md
+      - MVP/релиз/Маркет: 03_crm_no_touch_deals__mvp_release_market.md
+      - Скрины/безопасность: 03_crm_no_touch_deals__screens_security_faq.md
+    - "04 — Data Quality Score":
+      - Бриф: 04_crm_data_quality_score.md
+      - Конкуренты: 04_crm_data_quality_score__competitors.md
+      - MVP/релиз/Маркет: 04_crm_data_quality_score__mvp_release_market.md
+      - Скрины/безопасность: 04_crm_data_quality_score__screens_security_faq.md
+    - "05 — Риск проекта по задачам":
+      - Бриф: 05_tasks_project_risk_dashboard.md
+      - Конкуренты: 05_tasks_project_risk_dashboard__competitors.md
+      - MVP/релиз/Маркет: 05_tasks_project_risk_dashboard__mvp_release_market.md
+      - Скрины/безопасность: 05_tasks_project_risk_dashboard__screens_security_faq.md
+    - "06 — Скидки под контролем":
+      - Бриф: 06_crm_discount_control.md
+      - Конкуренты: 06_crm_discount_control__competitors.md
+      - MVP/релиз/Маркет: 06_crm_discount_control__mvp_release_market.md
+      - Скрины/безопасность: 06_crm_discount_control__screens_security_faq.md
+    - "07 — Зависшие задачи":
+      - Бриф: 07_tasks_stale_detector.md
+      - Конкуренты: 07_tasks_stale_detector__competitors.md
+      - MVP/релиз/Маркет: 07_tasks_stale_detector__mvp_release_market.md
+      - Скрины/безопасность: 07_tasks_stale_detector__screens_security_faq.md
+    - "08 — Радар просрочек":
+      - Бриф: 08_tasks_deadline_radar.md
+      - Конкуренты: 08_tasks_deadline_radar__competitors.md
+      - MVP/релиз/Маркет: 08_tasks_deadline_radar__mvp_release_market.md
+      - Скрины/безопасность: 08_tasks_deadline_radar__screens_security_faq.md
+    - "09 — KPI РОПа":
+      - Бриф: 09_analytics_sales_head_kpi.md
+      - Конкуренты: 09_analytics_sales_head_kpi__competitors.md
+      - MVP/релиз/Маркет: 09_analytics_sales_head_kpi__mvp_release_market.md
+      - Скрины/безопасность: 09_analytics_sales_head_kpi__screens_security_faq.md
+    - "10 — Дайджест руководителя":
+      - Бриф: 10_chats_manager_digest.md
+      - Конкуренты: 10_chats_manager_digest__competitors.md
+      - MVP/релиз/Маркет: 10_chats_manager_digest__mvp_release_market.md
+      - Скрины/безопасность: 10_chats_manager_digest__screens_security_faq.md
+  - Шаблоны:
+    - PRD-lite: _templates/PRD-lite.template.md
+    - Competitor matrix: _templates/Competitor-matrix.template.md

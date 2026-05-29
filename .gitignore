@@ -7,3 +7,9 @@
 *.pem
 credentials*.json
 
+# Build artifacts
+site/
+.tools/
+node_modules/
+.staticrypt.json
+
