@@ -46,6 +46,10 @@ jobs:
         env:
           SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
         run: |
+          if [ -z "$SITE_PASSWORD" ]; then
+            echo "::warning::SITE_PASSWORD secret is not set! Using default password 'changeme'. Add SITE_PASSWORD in Settings → Secrets → Actions."
+            SITE_PASSWORD="changeme"
+          fi
           find site -name "*.html" | while read f; do
             npx staticrypt "$f" \
               -p "$SITE_PASSWORD" \
