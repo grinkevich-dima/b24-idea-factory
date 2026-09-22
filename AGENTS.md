@@ -16,5 +16,6 @@ This is a **documentation-only** repository (no source code, no dependencies, no
 - **No services to start** — nothing to run.
 - **No tests/lint/build** — the repo is pure Markdown.
 - **Language of artifacts** — all documentation is in Russian.
-- **Skill usage** — read `SKILL.md` when the user asks to generate/validate Bitrix24 app ideas, analyze competitors, or build idea packages.
+- **Skill usage** — read `SKILL.md` + `docs/idea-briefs/IDEA_METHOD.md` when generating/validating ideas.
+- **Idea method (2026-09-22+)** — job/ritual first, API last; default **1–2 ideas** per request; no hourly spray. Hourly timer must stay **off** unless the user explicitly re-enables it.
 - **File naming convention** — idea packages use `NN_<slug>.md` with `__competitors`, `__mvp_release_market`, `__screens_security_faq` suffixes. Always update `INDEX.md` when adding new packages.
