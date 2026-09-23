@@ -17,6 +17,7 @@ This is a **documentation-only** repository (no source code, no dependencies, no
 - **No tests/lint/build** — the repo is pure Markdown.
 - **Language of artifacts** — all documentation is in Russian.
 - **Skill usage** — read `SKILL.md` + `docs/idea-briefs/IDEA_METHOD.md` when generating/validating ideas.
-- **Idea pipeline (G1–G5)** — generate → self-filter → **heavy** validate (Marketplace + native B24) → propose in chat → write `PROPOSED`/`BACKLOG` **only after** user `ок N` / `в беклог N`. Full 4-file package after `в беклог N`.
+- **Idea pipeline (G0–G5)** — mine native Bitrix gaps (G0) → job/wedge → self-filter → **heavy** validate (proof of incompleteness + Marketplace) → propose in chat → write `PROPOSED`/`BACKLOG` **only after** `ок N` / `в беклог N`. Full 4-file package after `в беклог N`.
+- **Primary idea source** — unfinished native Bitrix24 workflows (feature exists, next job step missing), not invented daily rituals or CRM hygiene.
 - **No hourly spray** — timer stays off unless the user explicitly re-enables it. Default 1–2 candidates per request.
 - **File naming convention** — idea packages use `NN_<slug>.md` with `__competitors`, `__mvp_release_market`, `__screens_security_faq` suffixes. Always update `INDEX.md` when adding new packages.
