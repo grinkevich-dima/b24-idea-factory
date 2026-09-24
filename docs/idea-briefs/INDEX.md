@@ -86,3 +86,9 @@
 - 31 — [Еженедельный фокус исполнителя](31_tasks_weekly_focus.md)
 - 32 — [План продаж против факта по менеджерам](32_analytics_sales_plan_fact.md)
 - 33 — [Вклад источников лидов в выручку](33_analytics_lead_source_revenue.md)
+
+## 317 — Из чата сделки создать дело себе
+- Бриф: `317_crm_chat_create_activity.md`
+- Конкуренты: `317_crm_chat_create_activity__competitors.md`
+- MVP/релиз/Маркет: `317_crm_chat_create_activity__mvp_release_market.md`
+- Скрины/безопасность/FAQ: `317_crm_chat_create_activity__screens_security_faq.md`
